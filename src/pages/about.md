@@ -20,8 +20,3 @@ Here are certain features of this site.
 - fully responsive and accessible
 - SEO-friendly
 - light & dark mode
-
-
-<!-- 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev). -->
