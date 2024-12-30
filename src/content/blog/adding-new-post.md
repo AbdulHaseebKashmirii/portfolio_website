@@ -7,7 +7,7 @@ slug: aI in data analysis
 featured: true
 draft: false
 tags:
-  - docs
+  - AI
 description:
 AI and ML are revolutionizing data analysis by enabling faster, more accurate insights and predictions, improving decision-making and marketing strategies.
 ---
@@ -20,7 +20,7 @@ With `Analytics Intelligence`, webmasters can ask questions in simple English, a
 
 The role of AI in data analytics continues to expand. Another example is AI’s use in predicting outcomes from data. These systems analyze data to forecast results and suggest the best actions to achieve those outcomes. Learn more about `AI applications`.
 
-As previously mentioned, AI systems can manage massive datasets and process them far quicker than humans. They can analyze `customer data` to make more accurate predictions about ``customer behavior``, `preferences`, and other key factors. `Helixa.ai` is a prime example of such an AI application. They use AI to provide insights into `customer behavior` with higher accuracy, enabling better-targeted campaigns and `precise buyer personas`. Agencies and marketers can leverage their services to optimize ad strategies and achieve improved results.
+As previously mentioned, AI systems can manage massive datasets and process them far quicker than humans. They can analyze `customer data` to make more accurate predictions about `customer behavior`, `preferences`, and other key factors. `Helixa.ai` is a prime example of such an AI application. They use AI to provide insights into `customer behavior` with higher accuracy, enabling better-targeted campaigns and `precise buyer personas`. Agencies and marketers can leverage their services to optimize ad strategies and achieve improved results.
 
 
 <!-- This is a comment
