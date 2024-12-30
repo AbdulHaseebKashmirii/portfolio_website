@@ -44,7 +44,8 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       <p>
        I am Abdul Haseeb. I am from Pakistan. I do data science.
       </p>
-      <p>
+      <div style={{ backgroundColor: "#1e1e2f", padding: "20px", borderRadius: "8px" }}>
+      <p style={{ color: "#ff6600", fontSize: "16px", lineHeight: "1.6" }}>
        I am actively seeking opportunities as a BDA (L1) & Data Analyst. 
        If you’re an HR professional or have an open position in your company, I’d love to connect and discuss how I can contribute. 
        Feel free to reach out at on 
@@ -60,6 +61,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
          LinkedIn
         </LinkButton>
       </p>
+      </div>
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
