@@ -3,13 +3,13 @@ author: Abdul Haseeb
 pubDatetime: 2024-12-23T15:22:00Z
 modDatetime: 2024-12-21T09:12:47.400Z
 title: AI in Data Analysis
-slug: ai-in-data-analysis
+slug: adding-new-post
 featured: true
 draft: false
 tags:
   - AI
 description:
-AI and ML are revolutionizing data analysis by enabling faster, more accurate insights and predictions, improving decision-making and marketing strategies.adding-new-post
+AI and ML are revolutionizing data analysis by enabling faster, more accurate insights and predictions, improving decision-making and marketing strategies.
 ---
 
 Data analysis is greatly enhanced by `AI` and `ML`, as AI algorithms improve through iterations, which boosts their `accuracy` and `precision`. These technologies assist data analysts in handling and processing large datasets more effectively.
