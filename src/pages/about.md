@@ -16,5 +16,3 @@ Here are certain features of this site.
 - fully responsive and accessible
 - SEO-friendly
 - light & dark mode -->
-
-I am working on this website 
