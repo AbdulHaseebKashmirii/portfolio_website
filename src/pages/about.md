@@ -4,11 +4,13 @@ title: "About"
 ---
 I am an undergraduate computer science student passionate about technology and its ability to drive meaningful change.
 
-Currently, I’m in my junior (3rd) year at FAST NUCES Karachi pursuing a bachelor’s degree in Computer Science.
+Currently, I am in my junior year at FAST NUCES Karachi, working toward a bachelor’s degree in Computer Science.
 
 In my free time, I focus on developing my programming skills and exploring data analysis and machine learning. I love diving into projects that allow me to use tools like SQL, Python,Excel and Power BI to visualize and manage data, telling stories and uncovering insights.
 
-If you want to get in touch with me about something or just to say hi, reach out on social media or <a href="mailto:abdulhaseeb5654@gmail.com" class="button">send me an email.</a>
+Feel free to connect with me on social media or drop me an <a href="mailto:abdulhaseeb5654@gmail.com" class="button">email</a>—I’d love to hear from you!
+
+
 <!-- [my personal blog](https://ahaseeb.com/).
 
  ## Tech Stack
