@@ -1,7 +1,7 @@
 ---
 author: Abdul Haseeb
-pubDatetime: 2022-09-23T15:22:00Z
-modDatetime: 2023-12-21T09:12:47.400Z
+pubDatetime: 2024-12-23T15:22:00Z
+modDatetime: 2024-12-21T09:12:47.400Z
 title: AI in Data Analysis
 slug: aI in data analysis
 featured: true
@@ -9,10 +9,21 @@ draft: false
 tags:
   - docs
 description:
-  Some rules & recommendations for creating or adding new posts using AstroPaper
-  theme.
+AI and ML are revolutionizing data analysis by enabling faster, more accurate insights and predictions, improving decision-making and marketing strategies.
 ---
 
+Data analysis is greatly enhanced by `AI` and `ML`, as AI algorithms improve through iterations, which boosts their `accuracy` and `precision`. These technologies assist data analysts in handling and processing large datasets more effectively.
+
+AI has the ability to detect patterns and insights that might be missed by the human eye without significant effort. Moreover, AI is `faster` and ``more scalable`` in doing so. For instance, `Google Analytics` offers `Analytics Intelligence`, which leverages machine learning to provide webmasters with insights about their websites more quickly.
+
+With `Analytics Intelligence`, webmasters can ask questions in simple English, and it will respond promptly. It also offers features like `Smart Lists`, `Smart Goals`, `Conversion Probability`, and more, which help webmasters improve their website performance.
+
+The role of AI in data analytics continues to expand. Another example is AI’s use in predicting outcomes from data. These systems analyze data to forecast results and suggest the best actions to achieve those outcomes. Learn more about `AI applications`.
+
+As previously mentioned, AI systems can manage massive datasets and process them far quicker than humans. They can analyze `customer data` to make more accurate predictions about ``customer behavior``, `preferences`, and other key factors. `Helixa.ai` is a prime example of such an AI application. They use AI to provide insights into `customer behavior` with higher accuracy, enabling better-targeted campaigns and `precise buyer personas`. Agencies and marketers can leverage their services to optimize ad strategies and achieve improved results.
+
+
+<!-- This is a comment
 Here are some rules/recommendations, tips & ticks for creating new posts in AstroPaper blog theme.
 
 ## Table of contents
@@ -99,8 +110,8 @@ Here are some recommendations, tips & ticks for creating new posts in AstroPaper
 
 ## Table of contents
 
-<!-- the rest of the post -->
-```
+<!-- the rest of the post ---<
+>```
 
 ## Headings
 
@@ -125,13 +136,13 @@ Example: Suppose you want to display `example.jpg` whose path is `/src/assets/im
 ```md
 ![something](@assets/images/example.jpg)
 
-<!-- OR -->
+<!-- OR --
 
 ![something](../../assets/images/example.jpg)
 
-<!-- Using img tag or Image component won't work ❌ -->
+<!-- Using img tag or Image component won't work ❌ --
 <img src="@assets/images/example.jpg" alt="something">
-<!-- ^^ This is wrong -->
+<!-- ^^ This is wrong --
 ```
 
 > Technically, you can store images inside any directory under `src`. In here, `src/assets` is just a recommendation.
@@ -142,12 +153,12 @@ You can store images inside the `public` directory. Keep in mind that images sto
 
 For these images, you should use an absolute path; and these images can be displayed using [markdown annotation](https://www.markdownguide.org/basic-syntax/#images-1) or [HTML img tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img).
 
-Example: Assume `example.jpg` is located at `/public/assets/images/example.jpg`.
+Example: Assume  is located at `/public/assets/images/example.jpg`.
 
 ```md
 ![something](/assets/images/example.jpg)
 
-<!-- OR -->
+<!-- OR --
 
 <img src="/assets/images/example.jpg" alt="something">
 ```
@@ -155,8 +166,8 @@ Example: Assume `example.jpg` is located at `/public/assets/images/example.jpg`.
 ## Bonus
 
 ### Image compression
-
-When you put images in the blog post (especially for images under `public` directory), it is recommended that the image is compressed. This will affect the overall performance of the website.
+`Data Ana`
+When you put images in the blog post (especially for images under  directory), it is recommended that the image is compressed. This will affect the overall performance of the website.'love'
 
 My recommendation for image compression sites.
 
@@ -167,4 +178,4 @@ My recommendation for image compression sites.
 
 The default OG image will be placed if a post does not specify the OG image. Though not required, OG image related to the post should be specify in the frontmatter. The recommended size for OG image is **_1200 X 640_** px.
 
-> Since AstroPaper v1.4.0, OG images will be generated automatically if not specified. Check out [the announcement](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/).
+> Since AstroPaper v1.4.0, OG images will be generated automatically if not specified. Check out [the announcement](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/). -->
