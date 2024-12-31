@@ -54,3 +54,20 @@ pip install chatterbot chatterbot_corpus nltk
 ```
 > Ready to learn Python? Start your journey with this free Basic Python Programming course on [GeeksforGeeks](https://www.geeksforgeeks.org/python-basics/) and enhance your coding skills today!
  
+### Step 2: Importing Required Classes and Modules
+
+After setting up your environment, the next step is to import the necessary classes and modules from libraries like ChatterBot and nltk to start building your chatbot.
+
+- Import the Libraries: Start by importing the classes you'll need to create your chatbot.
+from chatterbot.trainers import ChatterBotCorpusTrainer
+
+```ts
+from chatterbot import ChatBot
+from chatterbot.trainers import ChatterBotCorpusTrainer
+```
+**Set Up NLTK**: You'll need to download the required datasets for Natural Language Processing (NLP) from the nltk library as well.
+```ts
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+```
