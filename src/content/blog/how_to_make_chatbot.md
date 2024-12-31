@@ -58,16 +58,25 @@ pip install chatterbot chatterbot_corpus nltk
 
 After setting up your environment, the next step is to import the necessary classes and modules from libraries like ChatterBot and nltk to start building your chatbot.
 
-- Import the Libraries: Start by importing the classes you'll need to create your chatbot.
+- **Import the Libraries**: Start by importing the classes you'll need to create your chatbot.
 from chatterbot.trainers import ChatterBotCorpusTrainer
 
 ```ts
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 ```
-**Set Up NLTK**: You'll need to download the required datasets for Natural Language Processing (NLP) from the nltk library as well.
+- **Set Up NLTK**: You'll need to download the required datasets for Natural Language Processing (NLP) from the nltk library as well.
+
 ```ts
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 ```
+
+### Step 3: Designing the Chatbot Architecture
+
+With your environment set up, it's time to design your chatbot. This involves defining the intents, responses, and conversation flows to shape the chatbot’s behavior.
+
+- **Define Intents**: Identify the types of questions or requests the bot will handle.  
+- **Create Response Templates**: Plan how your chatbot will respond to different user queries, whether with predefined answers or by dynamically retrieving data.  
+- **Set Up Conversation Flow**: Make sure the bot can guide users through a smooth and natural conversation, handling various inputs without confusion.
