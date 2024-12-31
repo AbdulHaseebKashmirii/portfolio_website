@@ -155,3 +155,5 @@ def chat():
 - **Deploy the Application**: After everything is set up, deploy your chatbot to a platform like [Heroku](https://www.heroku.com/), [AWS](https://aws.amazon.com/what-is-aws/), or your own server to make it accessible to users.  
 
 These steps of the Python chatbot tutorial will guide you through testing, enhancing, and deploying your Python chatbot, ensuring it's ready for real-world use!
+
+Now that you’ve learned how to create a chatbot in Python, let’s explore how chatbots work and the key processes behind their functionality.
