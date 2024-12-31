@@ -26,13 +26,13 @@ This Python chatbot tutorial will walk you through the entire process, from setu
 ### Step 1: Setting Up Your Development Environment  
 Before you start building your chatbot, you need to set up your development environment. This involves installing [Python](https://www.python.org/downloads/), creating a virtual environment, and adding the necessary libraries.
 
-- Install Python: Download and install the latest version of Python from the official website.  
-- Set Up a Virtual Environment: A virtual environment allows you to manage project-specific dependencies without affecting other projects or system-wide installations.
+ - **Install Python**: Download and install the latest version of Python from the official website.  
+ - **Set Up a Virtual Environment**: A virtual environment allows you to manage project-specific dependencies without affecting other projects or system-wide installations.
 
 ```ts
 python -m venv chatbot_env
 ```
-- Activate the Virtual Environment:
+ - **Activate the Virtual Environment**:
 
 On Windows:
 
@@ -46,7 +46,7 @@ On Mac/Linux:
 source chatbot_env/bin/activate
 ```
 
-- Install Required Libraries:
+ - **Install Required Libraries**:
 Install libraries like ChatterBot and nltk (Natural Language Toolkit) to enable your chatbot to understand and respond to user input.
 
 ```ts
@@ -58,14 +58,14 @@ pip install chatterbot chatterbot_corpus nltk
 
 After setting up your environment, the next step is to import the necessary classes and modules from libraries like ChatterBot and nltk to start building your chatbot.
 
-- **Import the Libraries**: Start by importing the classes you'll need to create your chatbot.
+ - **Import the Libraries**: Start by importing the classes you'll need to create your chatbot.
 from chatterbot.trainers import ChatterBotCorpusTrainer
 
 ```ts
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 ```
-- **Set Up NLTK**: You'll need to download the required datasets for Natural Language Processing (NLP) from the nltk library as well.
+ - **Set Up NLTK**: You'll need to download the required datasets for Natural Language Processing (NLP) from the nltk library as well.
 
 ```ts
 import nltk
@@ -77,16 +77,16 @@ nltk.download('stopwords')
 
 With your environment set up, it's time to design your chatbot. This involves defining the intents, responses, and conversation flows to shape the chatbot’s behavior.
 
-- **Define Intents**: Identify the types of questions or requests the bot will handle.  
-- **Create Response Templates**: Plan how your chatbot will respond to different user queries, whether with predefined answers or by dynamically retrieving data.  
-- **Set Up Conversation Flow**: Make sure the bot can guide users through a smooth and natural conversation, handling various inputs without confusion.
+ - **Define Intents**: Identify the types of questions or requests the bot will handle.  
+ - **Create Response Templates**: Plan how your chatbot will respond to different user queries, whether with predefined answers or by dynamically retrieving data.  
+ - **Set Up Conversation Flow**: Make sure the bot can guide users through a smooth and natural conversation, handling various inputs without confusion.
 
 
 ### Step 4: Creating and Training the Chatbot
 
 Now it's time to create the chatbot instance and train it. You can use existing datasets or custom data to train your bot, enabling it to understand and respond correctly to different inputs.
 
-- **Create a Chatbot Instance**: Set up your chatbot with the desired configuration and training settings.
+ - **Create a Chatbot Instance**: Set up your chatbot with the desired configuration and training settings.
 
 ```ts
 chatbot = ChatBot('MyChatbot')
@@ -95,7 +95,7 @@ trainer.train('chatterbot.corpus.english')  # You can add more corpora or custom
 ```
 
 
-- **Train with Custom Data**: You can train your bot using custom datasets, such as FAQs or product-related information, to make it more specific and tailored to your needs.
+ - **Train with Custom Data**: You can train your bot using custom datasets, such as FAQs or product-related information, to make it more specific and tailored to your needs.
 
 ```ts
 trainer.train('path_to_your_custom_data.yml')
@@ -107,42 +107,42 @@ By the end of this step in the Python chatbot tutorial, your project will have t
 
 Testing is essential to make sure your chatbot works correctly and provides accurate responses. In this step of the Python chatbot tutorial, you'll evaluate the chatbot's performance, identify any issues, and refine its responses.
 
-- **Test Basic Interactions**: Begin by testing simple queries to check if the chatbot responds accurately. Ensure it handles basic inputs as expected.
+ - **Test Basic Interactions**: Begin by testing simple queries to check if the chatbot responds accurately. Ensure it handles basic inputs as expected.
 
 ```ts
 print(chatbot.get_response("Hello"))
 print(chatbot.get_response("What is your name?"))
 ```
-- **Identify Errors and Refine**: Review any errors or unexpected responses and make adjustments. Fine-tune the response patterns or conversation flow to improve accuracy and user experience.
+ - **Identify Errors and Refine**: Review any errors or unexpected responses and make adjustments. Fine-tune the response patterns or conversation flow to improve accuracy and user experience.
 
-- **User Testing**: Conduct tests with real users to collect feedback, and use their input to refine the chatbot's conversational design.
+ - **User Testing**: Conduct tests with real users to collect feedback, and use their input to refine the chatbot's conversational design.
 
 ### Step 6: Enhancing the Chatbot with Custom Data
 
 To enhance your chatbot's accuracy and relevance, you can train it with custom data. This step in the Python chatbot tutorial will enable it to handle specific topics or domains more effectively.
 
-- **Collect and Prepare Custom Data**: Gather conversation logs, FAQs, or industry-specific content that aligns with your chatbot’s purpose.  
+ - **Collect and Prepare Custom Data**: Gather conversation logs, FAQs, or industry-specific content that aligns with your chatbot’s purpose.  
 
-- **Train with Custom Data**: Use this data to retrain your chatbot, helping it recognize new intents and deliver more personalized responses.
+ - **Train with Custom Data**: Use this data to retrain your chatbot, helping it recognize new intents and deliver more personalized responses.
 
 ```ts
 chatbot.train("path/to/custom_data.yml")
 ```
 
-- **Test New Scenarios**: After training with custom data, test the chatbot again to make sure it understands and responds correctly to the new inputs.
+ - **Test New Scenarios**: After training with custom data, test the chatbot again to make sure it understands and responds correctly to the new inputs.
 
 
 ### Step 7: Integrating the Chatbot into a Web Application
 Now that your chatbot is working well, it's time to integrate it into a web application for seamless user interaction.
 
-- **Set Up Web Framework**: Use a web framework like [Flask](https://flask.palletsprojects.com/en/stable/installation/) or [Django](https://www.djangoproject.com/download/) to create the backend for your web application.
+ - **Set Up Web Framework**: Use a web framework like [Flask](https://flask.palletsprojects.com/en/stable/installation/) or [Django](https://www.djangoproject.com/download/) to create the backend for your web application.
 
 ```ts
 pip install Flask
 ```
-- **Create a Web Interface**: Design a simple front-end interface using HTML, CSS, and JavaScript, allowing users to interact with the chatbot.  
+ - **Create a Web Interface**: Design a simple front-end interface using HTML, CSS, and JavaScript, allowing users to interact with the chatbot.  
 
-- **Integrate Chatbot Logic**: Connect your chatbot to the back-end API using AJAX for real-time interactions, embedding the chatbot into the web application.
+ - **Integrate Chatbot Logic**: Connect your chatbot to the back-end API using AJAX for real-time interactions, embedding the chatbot into the web application.
 
 ```ts
 @app.route("/chat", methods=["POST"])
@@ -152,7 +152,7 @@ def chat():
     return jsonify(response=str(bot_response))
 ```
 
-- **Deploy the Application**: After everything is set up, deploy your chatbot to a platform like [Heroku](https://www.heroku.com/), [AWS](https://aws.amazon.com/what-is-aws/), or your own server to make it accessible to users.  
+ - **Deploy the Application**: After everything is set up, deploy your chatbot to a platform like [Heroku](https://www.heroku.com/), [AWS](https://aws.amazon.com/what-is-aws/), or your own server to make it accessible to users.  
 
 These steps of the Python chatbot tutorial will guide you through testing, enhancing, and deploying your Python chatbot, ensuring it's ready for real-world use!
 
@@ -162,11 +162,11 @@ Now that you’ve learned how to create a chatbot in Python, let’s explore how
 
 Python chatbots work through several processes that help them understand user inputs and respond appropriately. Here’s a breakdown of the key mechanics that power Python-based chatbots:
 
-- **Conversation Flow Management**  
-Chatbots must manage and guide the flow of a conversation to ensure interactions feel natural and engaging. This is achieved by structuring the bot’s logic using either predefined rules or advanced machine learning techniques.
+ - **Conversation Flow Management**  
+   Chatbots must manage and guide the flow of a conversation to ensure interactions feel natural and engaging. This is achieved by structuring the bot’s logic using either predefined rules or advanced machine learning techniques.
 
-  - **Predefined Conversation Paths**: Basic chatbots follow a set script, guiding users through predefined responses triggered by specific keywords.  
-  - **Dynamic Conversation Flow**: Advanced bots leverage [NLP](https://www.geeksforgeeks.org/introduction-to-natural-language-processing/) (Natural Language Processing) to handle conversations dynamically, adapting to user input for a more flexible and intelligent experience.
+   - **Predefined Conversation Paths**: Basic chatbots follow a set script, guiding users through predefined responses triggered by specific keywords.  
+   - **Dynamic Conversation Flow**: Advanced bots leverage [NLP](https://www.geeksforgeeks.org/introduction-to-natural-language-processing/) (Natural Language Processing) to handle conversations dynamically, adapting to user input for a more flexible and intelligent experience.
 
 Response Generation Mechanisms
 Once the chatbot understands a user’s query, it generates a response. There are two main methods for this:
@@ -180,7 +180,7 @@ For chatbots to provide relevant responses and maintain the context of a convers
     - **Persistent Storage**: For long-term functionality, chatbots can store conversation history in databases (such as `SQL` or `NoSQL`) or use cloud-based solutions to retain user profiles for future interactions.  
     - **Context Maintenance**: Maintaining context is crucial for smooth conversations. Advanced bots use memory models or context-aware architectures to avoid losing track of the discussion.
 
-- **In Summary**: Python chatbots operate by combining structured conversation flows, generating responses through predefined or dynamic mechanisms, and efficiently handling data to maintain context and enhance future interactions.
+ - **In Summary**: Python chatbots operate by combining structured conversation flows, generating responses through predefined or dynamic mechanisms, and efficiently handling data to maintain context and enhance future interactions.
 
 With a solid understanding of how to create a chatbot in Python and how it functions, let’s dive into the best practices for building an effective and long-lasting chatbot.
 
