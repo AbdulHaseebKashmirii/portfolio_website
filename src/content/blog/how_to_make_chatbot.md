@@ -4,8 +4,8 @@ pubDatetime: 2025-1-1T1:22:00Z
 modDatetime: 2025-1-1T01:12:47.400Z
 title: Step-by-Step Guide to Building a Chatbot in Python in 2025 [Includes Source Code]
 slug: how_to_make_chatbot
-featured: true
-draft: false
+featured: false
+draft: true
 tags:
   - chatbot
 description: Learn how to build a chatbot in Python with this step-by-step guide, including source code.
