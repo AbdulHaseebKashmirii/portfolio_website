@@ -28,3 +28,10 @@ Before you start building your chatbot, you need to set up your development envi
 
 - Install Python: Download and install the latest version of Python from the official website.  
 - Set Up a Virtual Environment: A virtual environment allows you to manage project-specific dependencies without affecting other projects or system-wide installations.
+
+```ts
+
+python -m venv chatbot_env
+
+```
+
