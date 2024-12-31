@@ -1,7 +1,7 @@
 ---
 author: Abdul Haseeb
 pubDatetime: 2024-12-23T15:22:00Z
-modDatetime: 2024-12-21T09:12:47.400Z
+modDatetime: 2024-1-21T09:12:47.400Z
 title: Step-by-Step Guide to Building a Chatbot in Python in 2025 [Includes Source Code]
 slug: how_to_make_chatbot
 featured: true
@@ -23,7 +23,7 @@ In this article, you'll follow a simple, step-by-step guide to building a chatbo
 
 This Python chatbot tutorial will walk you through the entire process, from setup to deployment, helping you build your own chatbot in Python step by step. You'll learn how to configure your environment, plan your chatbot's flow, and integrate the required libraries.
 
-# Step 1: Setting Up Your Development Environment  
+### Step 1: Setting Up Your Development Environment  
 Before you start building your chatbot, you need to set up your development environment. This involves installing [Python](https://www.python.org/downloads/), creating a virtual environment, and adding the necessary libraries.
 
 - Install Python: Download and install the latest version of Python from the official website.  
