@@ -47,7 +47,7 @@ export const SOCIALS: SocialObjects = [
   {
     name: "WhatsApp",
     href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Instagram`,
+    linkTitle: `${SITE.title} on WhatsApp`,
     active: false,
   },
   {
