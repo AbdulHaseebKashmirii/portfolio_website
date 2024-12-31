@@ -45,6 +45,12 @@ export const SOCIALS: SocialObjects = [
     active: true,
   },
   {
+    name: "Facebook",
+    href: "https://github.com/satnaing/astro-paper",
+    linkTitle: `${SITE.title} on Facebook`,
+    active: true,
+  },
+  {
     name: "Mail",
     href: "mailto:abdulhaseeb5654@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
