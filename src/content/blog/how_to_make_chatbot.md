@@ -116,3 +116,17 @@ print(chatbot.get_response("What is your name?"))
 - **Identify Errors and Refine**: Review any errors or unexpected responses and make adjustments. Fine-tune the response patterns or conversation flow to improve accuracy and user experience.
 
 - **User Testing**: Conduct tests with real users to collect feedback, and use their input to refine the chatbot's conversational design.
+
+### Step 6: Enhancing the Chatbot with Custom Data
+
+To enhance your chatbot's accuracy and relevance, you can train it with custom data. This step in the Python chatbot tutorial will enable it to handle specific topics or domains more effectively.
+
+- **Collect and Prepare Custom Data**: Gather conversation logs, FAQs, or industry-specific content that aligns with your chatbot’s purpose.  
+
+- **Train with Custom Data**: Use this data to retrain your chatbot, helping it recognize new intents and deliver more personalized responses.
+
+```ts
+chatbot.train("path/to/custom_data.yml")
+```
+
+- **Test New Scenarios**: After training with custom data, test the chatbot again to make sure it understands and responds correctly to the new inputs.
