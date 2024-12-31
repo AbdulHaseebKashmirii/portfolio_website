@@ -175,8 +175,8 @@ Data Handling and Storage
 For chatbots to provide relevant responses and maintain the context of a conversation, they need to handle user data effectively. This includes tracking conversation history, storing context, and making sure the bot remembers past interactions.
    - **Session Management**: Chatbots often track user data within a session to maintain context during a conversation. This allows the bot to remember details, like the user’s name or previous questions, and build on them seamlessly.
 
-    - **Persistent Storage**: For long-term functionality, chatbots can store conversation history in databases (such as `SQL` or `NoSQL`) or use cloud-based solutions to retain user profiles for future interactions.  
-    - **Context Maintenance**: Maintaining context is crucial for smooth conversations. Advanced bots use memory models or context-aware architectures to avoid losing track of the discussion.
+   - **Persistent Storage**: For long-term functionality, chatbots can store conversation history in databases (such as `SQL` or `NoSQL`) or use cloud-based solutions to retain user profiles for future interactions.  
+   - **Context Maintenance**: Maintaining context is crucial for smooth conversations. Advanced bots use memory models or context-aware architectures to avoid losing track of the discussion.
 
  - **In Summary**: Python chatbots operate by combining structured conversation flows, generating responses through predefined or dynamic mechanisms, and efficiently handling data to maintain context and enhance future interactions.
 
@@ -197,8 +197,8 @@ Here are some key strategies:
 
 2. **Continuously Training and Updating the Chatbot**
 
-    - **Use Machine Learning**: For advanced bots, train them regularly with updated data to improve accuracy and performance.
-    - **Analyze User Interactions**: Monitor conversations to spot weaknesses and improve the bot’s responses.
+   - **Use Machine Learning**: For advanced bots, train them regularly with updated data to improve accuracy and performance.
+   - **Analyze User Interactions**: Monitor conversations to spot weaknesses and improve the bot’s responses.
 
 3.  **Ensuring Data Privacy and Security**
 
