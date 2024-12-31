@@ -89,9 +89,8 @@ Now it's time to create the chatbot instance and train it. You can use `existing
 ```ts
 chatbot = ChatBot('MyChatbot')
 trainer = ChatterBotCorpusTrainer(chatbot)
-trainer.train('chatterbot.corpus.english')  # You can add more corpora or custom data
+trainer.train('chatterbot.corpus.english')  // You can add more corpora or custom data
 ```
-
 
  - **Train with Custom Data**: You can train your bot using custom datasets, such as `FAQs` or `product-related information`, to make it more specific and tailored to your needs.
 
