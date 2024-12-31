@@ -6,9 +6,9 @@ const URL = Astro.url;
 
 const shareLinks = [
   {
-    name: "Instagram",
-    href: "https://www.instagram.com/sharer.php?u=",
-    linkTitle: `Share this post on Instagram`,
+    name: "WhatsApp",
+    href: "https://wa.me/?text=",
+    linkTitle: `Share this post via WhatsApp`,
   },
   {
     name: "Facebook",
@@ -16,25 +16,25 @@ const shareLinks = [
     linkTitle: `Share this post on Facebook`,
   },
   {
-    name: "Github",
-    href: "https://github.com/AbdulHaseebKashmirii",
-    linkTitle: `Abdul Haseeb on GitHub`,
+    name: "X",
+    href: "https://x.com/intent/post?url=",
+    linkTitle: `Share this post on X`,
   },
   {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/abdulhaseebkashmiri/",
-    linkTitle: `Abdul Haseeb on LinkedIn`,
+    name: "Telegram",
+    href: "https://t.me/share/url?url=",
+    linkTitle: `Share this post via Telegram`,
   },
   {
-  name: "Mail",
-  href: "mailto:abdulhaseeb5654@gmail.com?subject=See%20this%20post&body=",
-  linkTitle: `Send an email to Abdul Haseeb`,
-},
-{
-  name: "Kaggle",
-  href: "https://www.kaggle.com/abdulhaseebk",
-  linkTitle: `Send an email to Abdul Haseeb`,
-},
+    name: "Pinterest",
+    href: "https://pinterest.com/pin/create/button/?url=",
+    linkTitle: `Share this post on Pinterest`,
+  },
+  {
+    name: "Mail",
+    href: "mailto:?subject=See%20this%20post&body=",
+    linkTitle: `Share this post via email`,
+  },
 ] as const;
 ---
 
