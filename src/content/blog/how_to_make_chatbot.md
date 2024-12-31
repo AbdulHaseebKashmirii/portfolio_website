@@ -1,7 +1,7 @@
 ---
 author: Abdul Haseeb
-pubDatetime: 2025-1-1T1:22:00Z
-modDatetime: 2025-1-1T01:12:47.400Z
+pubDatetime: 2024-1-1T1:22:00Z
+modDatetime: 2024-1-1T01:12:47.400Z
 title: Step-by-Step Guide to Building a Chatbot in Python in 2025 [Includes Source Code]
 slug: how_to_make_chatbot
 featured: false
