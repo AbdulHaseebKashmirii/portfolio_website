@@ -95,7 +95,10 @@ trainer.train('chatterbot.corpus.english')  # You can add more corpora or custom
 ```
 
 
-Train with Custom Data: You can also train your bot using custom datasets (e.g., FAQs or product-related information).
+- **Train with Custom Data**: You can train your bot using custom datasets, such as FAQs or product-related information, to make it more specific and tailored to your needs.
+
+```ts
 trainer.train('path_to_your_custom_data.yml')
-</> Copy Code
-By the end of this step of the Python chatbot tutorial, your project will have the foundational knowledge to start processing inputs and providing responses.
+```
+
+By the end of this step in the Python chatbot tutorial, your project will have the foundational setup to start processing inputs and generating appropriate responses.
