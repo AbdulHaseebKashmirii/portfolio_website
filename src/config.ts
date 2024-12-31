@@ -39,6 +39,18 @@ export const SOCIALS: SocialObjects = [
     active: true,
   },
   {
+    name: "Instagram",
+    href: "https://github.com/satnaing/astro-paper",
+    linkTitle: `${SITE.title} on Instagram`,
+    active: false,
+  },
+  {
+    name: "WhatsApp",
+    href: "https://github.com/satnaing/astro-paper",
+    linkTitle: `${SITE.title} on Instagram`,
+    active: false,
+  },
+  {
     name: "LinkedIn",
     href: "https://www.linkedin.com/in/abdulhaseebkashmiri/",
     linkTitle: `${SITE.title} on LinkedIn`,
