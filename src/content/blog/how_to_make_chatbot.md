@@ -24,15 +24,15 @@ In this article, you'll follow a simple, step-by-step guide to building a chatbo
 This Python chatbot tutorial will walk you through the entire process, from setup to deployment, helping you build your own chatbot in Python step by step. You'll learn how to configure your environment, plan your chatbot's flow, and integrate the required libraries.
 
 ### Step 1: Setting Up Your Development Environment  
-Before you start building your chatbot, you need to set up your development environment. This involves installing [Python](https://www.python.org/downloads/), creating a virtual environment, and adding the necessary libraries.
+Before you start building your chatbot, you need to set up your development environment. This involves installing `Python`, creating a virtual environment, and adding the necessary libraries.
 
- - **Install Python**: Download and install the latest version of Python from the official website.  
+ - **Install Python**: Download and install the latest version of Python from the [official website](https://www.python.org/downloads/).  
  - **Set Up a Virtual Environment**: A virtual environment allows you to manage project-specific dependencies without affecting other projects or system-wide installations.
 
 ```ts
 python -m venv chatbot_env
 ```
- - **Activate the Virtual Environment**:
+- **Activate the Virtual Environment**:
 
 On Windows:
 
@@ -45,9 +45,8 @@ On Mac/Linux:
 ```ts
 source chatbot_env/bin/activate
 ```
-
- - **Install Required Libraries**:
-Install libraries like ChatterBot and nltk (Natural Language Toolkit) to enable your chatbot to understand and respond to user input.
+- **Install Required Libraries**:
+Install libraries like `ChatterBot` and `nltk (Natural Language Toolkit)` to enable your chatbot to understand and respond to user input.
 
 ```ts
 pip install chatterbot chatterbot_corpus nltk
@@ -56,10 +55,9 @@ pip install chatterbot chatterbot_corpus nltk
  
 ### Step 2: Importing Required Classes and Modules
 
-After setting up your environment, the next step is to import the necessary classes and modules from libraries like ChatterBot and nltk to start building your chatbot.
+After setting up your environment, the next step is to import the necessary classes and modules from libraries like `ChatterBot` and `nltk` to start building your chatbot.
 
  - **Import the Libraries**: Start by importing the classes you'll need to create your chatbot.
-from chatterbot.trainers import ChatterBotCorpusTrainer
 
 ```ts
 from chatterbot import ChatBot
@@ -84,7 +82,7 @@ With your environment set up, it's time to design your chatbot. This involves de
 
 ### Step 4: Creating and Training the Chatbot
 
-Now it's time to create the chatbot instance and train it. You can use existing datasets or custom data to train your bot, enabling it to understand and respond correctly to different inputs.
+Now it's time to create the chatbot instance and train it. You can use `existing datasets` or `custom data` to train your bot, enabling it to understand and respond correctly to different inputs.
 
  - **Create a Chatbot Instance**: Set up your chatbot with the desired configuration and training settings.
 
@@ -95,7 +93,7 @@ trainer.train('chatterbot.corpus.english')  # You can add more corpora or custom
 ```
 
 
- - **Train with Custom Data**: You can train your bot using custom datasets, such as FAQs or product-related information, to make it more specific and tailored to your needs.
+ - **Train with Custom Data**: You can train your bot using custom datasets, such as `FAQs` or `product-related information`, to make it more specific and tailored to your needs.
 
 ```ts
 trainer.train('path_to_your_custom_data.yml')
