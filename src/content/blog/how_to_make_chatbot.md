@@ -130,3 +130,28 @@ chatbot.train("path/to/custom_data.yml")
 ```
 
 - **Test New Scenarios**: After training with custom data, test the chatbot again to make sure it understands and responds correctly to the new inputs.
+
+
+### Step 7: Integrating the Chatbot into a Web Application
+Now that your chatbot is working well, it's time to integrate it into a web application for seamless user interaction.
+
+- **Set Up Web Framework**: Use a web framework like [Flask](https://flask.palletsprojects.com/en/stable/installation/) or [Django](https://www.djangoproject.com/download/) to create the backend for your web application.
+
+```ts
+pip install Flask
+```
+- **Create a Web Interface**: Design a simple front-end interface using HTML, CSS, and JavaScript, allowing users to interact with the chatbot.  
+
+- **Integrate Chatbot Logic**: Connect your chatbot to the back-end API using AJAX for real-time interactions, embedding the chatbot into the web application.
+
+```ts
+@app.route("/chat", methods=["POST"])
+def chat():
+    user_input = request.form["user_input"]
+    bot_response = chatbot.get_response(user_input)
+    return jsonify(response=str(bot_response))
+```
+
+- **Deploy the Application**: After everything is set up, deploy your chatbot to a platform like [Heroku](https://www.heroku.com/), [AWS](https://aws.amazon.com/what-is-aws/), or your own server to make it accessible to users.  
+
+These steps of the Python chatbot tutorial will guide you through testing, enhancing, and deploying your Python chatbot, ensuring it's ready for real-world use!
