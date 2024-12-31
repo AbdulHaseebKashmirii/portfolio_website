@@ -119,7 +119,7 @@ print(chatbot.get_response("What is your name?"))
 
 To enhance your chatbot's accuracy and relevance, you can train it with custom data. This step in the Python chatbot tutorial will enable it to handle specific topics or domains more effectively.
 
- - **Collect and Prepare Custom Data**: Gather conversation logs, FAQs, or industry-specific content that aligns with your chatbot’s purpose.  
+ - **Collect and Prepare Custom Data**: Gather `conversation logs`, `FAQs`, or `industry-specific` content that aligns with your chatbot’s purpose.  
 
  - **Train with Custom Data**: Use this data to retrain your chatbot, helping it recognize new intents and deliver more personalized responses.
 
@@ -140,7 +140,7 @@ pip install Flask
 ```
  - **Create a Web Interface**: Design a simple front-end interface using HTML, CSS, and JavaScript, allowing users to interact with the chatbot.  
 
- - **Integrate Chatbot Logic**: Connect your chatbot to the back-end API using AJAX for real-time interactions, embedding the chatbot into the web application.
+ - **Integrate Chatbot Logic**: Connect your chatbot to the back-end API using [AJAX](https://www.geeksforgeeks.org/ajax-introduction/) for real-time interactions, embedding the chatbot into the web application.
 
 ```ts
 @app.route("/chat", methods=["POST"])
