@@ -30,8 +30,24 @@ Before you start building your chatbot, you need to set up your development envi
 - Set Up a Virtual Environment: A virtual environment allows you to manage project-specific dependencies without affecting other projects or system-wide installations.
 
 ```ts
-
 python -m venv chatbot_env
+```
+- Activate the Virtual Environment:
+On Windows:
 
+```ts
+chatbot_env\Scripts\activate
 ```
 
+On Mac/Linux:
+
+```ts
+source chatbot_env/bin/activate
+```
+
+- Install Required Libraries:
+Install libraries like ChatterBot and nltk (Natural Language Toolkit) to enable your chatbot to understand and respond to user input.
+
+```ts
+pip install chatterbot chatterbot_corpus nltk
+```
