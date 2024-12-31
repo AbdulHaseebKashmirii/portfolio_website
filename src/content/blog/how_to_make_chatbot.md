@@ -33,6 +33,7 @@ Before you start building your chatbot, you need to set up your development envi
 python -m venv chatbot_env
 ```
 - Activate the Virtual Environment:
+
 On Windows:
 
 ```ts
