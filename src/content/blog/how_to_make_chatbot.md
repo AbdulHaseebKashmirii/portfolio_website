@@ -102,3 +102,17 @@ trainer.train('path_to_your_custom_data.yml')
 ```
 
 By the end of this step in the Python chatbot tutorial, your project will have the foundational setup to start processing inputs and generating appropriate responses.
+
+### Step 5: Testing Your Chatbot
+
+Testing is essential to make sure your chatbot works correctly and provides accurate responses. In this step of the Python chatbot tutorial, you'll evaluate the chatbot's performance, identify any issues, and refine its responses.
+
+- **Test Basic Interactions**: Begin by testing simple queries to check if the chatbot responds accurately. Ensure it handles basic inputs as expected.
+
+```ts
+print(chatbot.get_response("Hello"))
+print(chatbot.get_response("What is your name?"))
+```
+- **Identify Errors and Refine**: Review any errors or unexpected responses and make adjustments. Fine-tune the response patterns or conversation flow to improve accuracy and user experience.
+
+- **User Testing**: Conduct tests with real users to collect feedback, and use their input to refine the chatbot's conversational design.
