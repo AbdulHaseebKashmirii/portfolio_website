@@ -51,3 +51,5 @@ Install libraries like ChatterBot and nltk (Natural Language Toolkit) to enable 
 ```ts
 pip install chatterbot chatterbot_corpus nltk
 ```
+> Ready to learn Python? Start your journey with this free Basic Python Programming course on [GeeksforGeeks](https://www.geeksforgeeks.org/python-basics/) and enhance your coding skills today!
+ 
