@@ -80,3 +80,22 @@ With your environment set up, it's time to design your chatbot. This involves de
 - **Define Intents**: Identify the types of questions or requests the bot will handle.  
 - **Create Response Templates**: Plan how your chatbot will respond to different user queries, whether with predefined answers or by dynamically retrieving data.  
 - **Set Up Conversation Flow**: Make sure the bot can guide users through a smooth and natural conversation, handling various inputs without confusion.
+
+
+### Step 4: Creating and Training the Chatbot
+
+Now it's time to create the chatbot instance and train it. You can use existing datasets or custom data to train your bot, enabling it to understand and respond correctly to different inputs.
+
+- **Create a Chatbot Instance**: Set up your chatbot with the desired configuration and training settings.
+
+```ts
+chatbot = ChatBot('MyChatbot')
+trainer = ChatterBotCorpusTrainer(chatbot)
+trainer.train('chatterbot.corpus.english')  # You can add more corpora or custom data
+```
+
+
+Train with Custom Data: You can also train your bot using custom datasets (e.g., FAQs or product-related information).
+trainer.train('path_to_your_custom_data.yml')
+</> Copy Code
+By the end of this step of the Python chatbot tutorial, your project will have the foundational knowledge to start processing inputs and providing responses.
