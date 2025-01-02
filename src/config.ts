@@ -45,6 +45,12 @@ export const SOCIALS: SocialObjects = [
     active: false,
   },
   {
+    name: "Kaggle",
+    href: "https://www.kaggle.com/abdulhaseebk",
+    linkTitle: `Check out ${SITE.title} on Kaggle`,
+    active: true,
+  },
+  {
     name: "Instagram",
     href: "https://www.instagram.com/whereisabdulhaseeb/",
     linkTitle: `${SITE.title} on Instagram`,
