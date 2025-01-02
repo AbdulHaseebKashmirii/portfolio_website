@@ -34,3 +34,9 @@ Installation:
 ```ts
 pip install numpy
 ```
+
+Importing NumPy:
+
+```ts
+import numpy as np
+```
