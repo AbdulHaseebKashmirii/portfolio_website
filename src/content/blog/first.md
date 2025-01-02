@@ -106,6 +106,7 @@ import matplotlib.pyplot as plt
 ### Key Features and Usage:
 
 1. Basic Plots:
+
 ```ts
 x = [1, 2, 3, 4, 5]
 y = [10, 20, 30, 40, 50]
@@ -116,7 +117,9 @@ plt.ylabel("Y-axis")
 plt.legend()
 plt.show()
 ```
+
 2. Bar Charts:
+
 ```ts
 categories = ['A', 'B', 'C']
 values = [10, 20, 15]
@@ -124,7 +127,9 @@ plt.bar(categories, values, color='green')
 plt.title("Bar Chart")
 plt.show()
 ```
+
 3. Advanced Visualizations:
+
 ```ts
 from mpl_toolkits.mplot3d import Axes3D
 fig = plt.figure()
