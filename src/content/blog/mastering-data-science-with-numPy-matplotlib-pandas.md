@@ -11,7 +11,7 @@ tags:
   - Numpy
   - pandas
   - matplotlib
-description: AI and ML are revolutionizing data analysis by enabling faster, more accurate insights and predictions, improving decision-making and marketing strategies.
+description:Master Python’s NumPy, Matplotlib, and Pandas to streamline data analysis and visualization. Transform complex datasets into clear, actionable insights with ease
 ---
 ## Table of contents
 
