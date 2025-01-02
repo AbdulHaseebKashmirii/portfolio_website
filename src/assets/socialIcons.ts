@@ -3,10 +3,10 @@ const socialIcons = {
   xmlns="http://www.w3.org/2000/svg" 
   viewBox="0 0 24 24" 
   fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
-  class="icon-tabler icon-tabler-kaggle">
-  <rect x="2" y="2" width="20" height="20" rx="5" />
-  <path d="M10 9v6" />
-  <path d="M14 9l-4 3 4 3" />
+  class="icon-tabler icon-tabler-k-lowercase">
+  <path d="M7 4v16" />  <!-- Vertical stroke -->
+  <path d="M7 10h2l6 4" />  <!-- Upper leg of k -->
+  <path d="M9 10l6 -4" />  <!-- Lower leg of k -->
 </svg>
 `,
   Github: `<svg
