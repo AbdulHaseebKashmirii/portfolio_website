@@ -137,3 +137,46 @@ ax = fig.add_subplot(111, projection='3d')
 ax.scatter([1, 2, 3], [4, 5, 6], [7, 8, 9])
 plt.show()
 ```
+
+Matplotlib enables you to visually articulate the story behind your data, highlighting trends, patterns, and outliers in an intuitive format.
+
+## 3. Pandas: The Data Manipulation Wizard
+
+## What is Pandas?
+
+Pandas is a powerhouse for data manipulation, making it simple to import, clean, and analyze data in a format that's both accessible and efficient.
+
+## Why Use Pandas in Data Science?
+
+- Simplifies the process of data cleaning and transformation.
+- Provides robust data aggregation and filtering tools.
+- Integrates seamlessly with NumPy and Matplotlib for a comprehensive data analysis toolkit.
+- Mastering Data Handling with Pandas
+
+Installation:
+
+```ts
+pip install pandas
+```
+
+Importing Pandas:
+
+```ts
+import pandas as pd
+```
+
+### Key Features and Usage:
+
+1. **DataFrames**: DataFrames allow you to work with data in a tabular form, akin to a powerful version of an Excel spreadsheet.
+
+```ts
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie'],
+    'Age': [25, 30, 35],
+    'Score': [85, 90, 95]
+}
+df = pd.DataFrame(data)
+```
+
+2. **Data Manipulation**:
+
