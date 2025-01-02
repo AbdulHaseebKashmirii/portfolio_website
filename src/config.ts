@@ -33,6 +33,12 @@ export const LOGO_IMAGE = {
 
 export const SOCIALS: SocialObjects = [
   {
+    name: "Kaggle",
+    href: "https://www.kaggle.com/abdulhaseebk",
+    linkTitle: `Check out ${SITE.title} on Kaggle`,
+    active: true,
+  },
+  {
     name: "Github",
     href: "https://github.com/AbdulHaseebKashmirii",
     linkTitle: ` ${SITE.title} on Github`,
@@ -43,12 +49,6 @@ export const SOCIALS: SocialObjects = [
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Facebook`,
     active: false,
-  },
-  {
-    name: "Kaggle",
-    href: "https://www.kaggle.com/abdulhaseebk",
-    linkTitle: `Check out ${SITE.title} on Kaggle`,
-    active: true,
   },
   {
     name: "Instagram",
