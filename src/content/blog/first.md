@@ -40,3 +40,41 @@ Importing NumPy:
 ```ts
 import numpy as np
 ```
+### Key Features and Usage:
+
+1. Array Creation:
+
+```ts
+arr = np.array([1, 2, 3, 4])  // 1D Array
+matrix = np.array([[1, 2], [3, 4]])  // 2D Array
+```
+
+2. Special Arrays:
+
+```ts
+zeros = np.zeros((2, 3))  // 2x3 array of zeros
+ones = np.ones((3, 3))    // 3x3 array of ones
+```
+3. Array Operations:
+
+```ts
+arr1 = np.array([1, 2, 3])
+arr2 = np.array([4, 5, 6])
+result = arr1 + arr2  // [5, 7, 9]
+```
+
+4. Broadcasting:
+
+```ts
+arr = np.array([1, 2, 3])
+result = arr + 10  // Adds 10 to each element
+```
+
+5. Aggregations:
+
+```ts
+mean_val = np.mean(arr)  // Mean of the array
+sum_val = np.sum(arr)    // Sum of the array
+```
+
+`NumPy` transforms complex mathematical computation into fast, reliable operatNumPy transforms complex mathematical computation into fast, reliable operations, akin to a high-performance calculator on steroids.ions, akin to a high-performance calculator on steroids.
