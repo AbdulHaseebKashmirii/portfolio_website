@@ -180,3 +180,29 @@ df = pd.DataFrame(data)
 
 2. **Data Manipulation**:
 
+```ts
+// Filter rows
+filtered_df = df[df['Age'] > 28]
+
+// Add a column
+df['Pass'] = df['Score'] > 90
+```
+
+3. Aggregations:
+
+```ts
+grouped = df.groupby('Pass').mean()
+```
+
+4. Handling Missing Data:
+
+```ts
+// Fill missing values
+df['Score'].fillna(0, inplace=True)
+
+/// Drop rows with missing values
+df.dropna(inplace=True)
+```
+
+Pandas organizes and refines your data, preparing it for thorough analysis and insight extraction.
+
