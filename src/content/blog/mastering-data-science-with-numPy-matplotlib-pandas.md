@@ -82,7 +82,7 @@ sum_val = np.sum(arr)    // Sum of the array
 
 `NumPy` transforms complex mathematical computation into fast, reliable operatNumPy transforms complex mathematical computation into fast, reliable operations, akin to a high-performance calculator on steroids.ions, akin to a high-performance calculator on steroids.
 
-## 2. Matplotlib : Crafting Visual Stories from Data
+## 2. Matplotlib: Crafting Visual Stories from Data
 
 ### What is Matplotlib?
 
