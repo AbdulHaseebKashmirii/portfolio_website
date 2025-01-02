@@ -1,18 +1,13 @@
 const socialIcons = {
-  Kaggle: `<svg  
+  Kaggle: `<svg 
   xmlns="http://www.w3.org/2000/svg" 
   viewBox="0 0 24 24" 
-  fill="none" 
-  stroke="currentColor" 
-  stroke-width="2" 
-  stroke-linecap="round" 
-  stroke-linejoin="round" 
+  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
   class="icon-tabler icon-tabler-k-lowercase">
-  <path d="M10 4v16" /> <!-- Vertical stroke -->
-  <path d="M10 12l4 -4" /> <!-- Upper leg of k -->
-  <path d="M10 12l4 4" /> <!-- Lower leg of k -->
+  <path d="M7 4v16" />  <!-- Vertical stroke -->
+  <path d="M7 10h2l6 4" />  <!-- Upper leg of k -->
+  <path d="M9 10l6 -4" />  <!-- Lower leg of k -->
 </svg>
-
 `,
   Github: `<svg
     xmlns="http://www.w3.org/2000/svg"
