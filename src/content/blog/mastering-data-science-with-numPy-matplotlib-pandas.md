@@ -11,6 +11,7 @@ tags:
   - Numpy
   - pandas
   - matplotlib
+  - ai
 description: Master Python’s NumPy, Matplotlib, and Pandas to streamline data analysis and visualization. Transform complex datasets into clear, actionable insights with ease
 ---
 ## Table of contents
