@@ -2,7 +2,7 @@
 layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
-I am an undergraduate computer science student passionate about technology and its ability to drive meaningful change.
+I am an undergraduate business analysit student passionate about technology and its ability to drive meaningful change.
 
 Currently, I am in my junior year at FAST NUCES Karachi, working toward a bachelor’s degree in Computer Science.
 
