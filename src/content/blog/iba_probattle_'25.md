@@ -1,9 +1,10 @@
 ---
-title: IBA Probattle '25
 author: Abdul Haseeb
-pubDatetime: 2022-09-21T05:17:19Z
-slug: iba-probattle-'25
-featured: false
+pubDatetime: 2024-12-12T18:58:00Z  
+modDatetime: 2025-02-01T18:58:00Z  
+title: IBA Probattle '25
+slug: iba_probattle_'25
+featured: true
 draft: false
 tags:
   - IBAProBattle25
@@ -12,7 +13,6 @@ tags:
   - BusinessIntelligence 
   - TeamAchievement
   - DashboardDesign 
-!<--ogImage: https://res.cloudinary.com/noezectz/v1663745737/astro-paper/astropaper-x-forestry-og_kqfwp0.png -->
 description:
   We secured the runner-up position in IBA ProBattle '25 by analyzing Turkish Market Sales data using Power BI!
 ---
