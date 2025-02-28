@@ -51,7 +51,7 @@ This helped us decide on the key metrics and visuals to include in our dashboard
 - Geographical Insights – Visualizing profit distribution across different cities.
 > Here’s a glimpse of the dashboard we designed:
 
-![Dashboard](https://console.cloudinary.com/pm/c-6ebbdd6d67a32255dd72290f729a04/media-explorer/Website?assetId=9c1f30dfc208a6034cba94d09bc2cee6)
+![Dashboard](https://res.cloudinary.com/dqpbi43mn/image/upload/f_auto,q_auto/v1/Website/lnwqkx3ecntc0ijo3cad)
 
 Our interactive dashboard, showcasing key sales trends and insights.
 
