@@ -55,6 +55,10 @@ This helped us decide on the key metrics and visuals to include in our dashboard
 
 **Our interactive dashboard, showcasing key sales trends and insights.**
 
+![Dashborad](https://res.cloudinary.com/dqpbi43mn/image/upload/f_auto,q_auto/v1/Website/teevquvd69jx5vtzowj0)
+
+**Another view of our dashboard, highlighting geographical insights and top-performing stores.**
+
 ## What We Learned
 ### This experience taught us a lot:
 
@@ -67,7 +71,5 @@ This helped us decide on the key metrics and visuals to include in our dashboard
 Our efforts paid off as the judges appreciated the insights we gathered and the interactive design of our dashboard. Competing against talented teams, we were thrilled to be announced as the runners-up!
 
 ## Final Thoughts
-Participating in IBA Probattle '25 was a fantastic learning experience. It not only enhanced our data analysis and visualization skills but also taught us how to think strategically and present insights effectively. We are proud of our achievement and are looking forward to more challenges ahead!
-
-![Dashborad](https://res.cloudinary.com/dqpbi43mn/image/upload/f_auto,q_auto/v1/Website/teevquvd69jx5vtzowj0)
+Participating in IBA Probattle ‘25 was an unforgettable experience. It wasn’t just about winning but about learning, growing, and challenging ourselves. Ending up as runners-up was a proud moment for us, but the knowledge and experience we gained were even more valuable
 > Looking back, we’re grateful for the journey and the memories we made. Would we participate again? Absolutely!
