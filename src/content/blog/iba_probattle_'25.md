@@ -16,19 +16,20 @@ tags:
 description:
   We secured the runner-up position in IBA ProBattle '25 by analyzing Turkish Market Sales data using Power BI!
 ---
+## Table of contents
 
 ## Our Experience at IBA Probattle '25
-Recently, Fakhurddin and I participated in IBA Probattle '25, where we took on the challenge of the Business Intelligence (BI) module. It was an incredible experience, filled with learning, excitement, and a fair share of challenges. We had to analyze a complex dataset and create an interactive dashboard using Power BI. After putting in hours of hard work, we were thrilled to secure the position of runners-up!
+Recently, [Fakhurddin](https://www.linkedin.com/in/fakhurddin-junejo/) and I participated in IBA Probattle '25, organized by [IBA Computer Science Society,](https://www.linkedin.com/company/iba-computer-science-society/posts/?feedView=all&viewAsMember=true) where we took on the challenge of the Business Intelligence (BI) module. It was an incredible experience, filled with learning, excitement, and a fair share of challenges. We had to analyze a complex dataset and create an interactive dashboard using Power BI. After putting in hours of hard work, we were thrilled to secure the position of runners-up!
 
-The Dataset We Worked With
+## The Dataset We Worked With
 We were given the Turkish Market Sales Dataset, which was massive and full of valuable information:
 
-50,000+ Customers – Giving us insights into different customer behaviors and demographics.
-9,000+ Items – A wide variety of products categorized under different brands.
-81 Stores – Sales data from stores across various cities, allowing us to explore regional trends.
+- 50,000+ Customers – Giving us insights into different customer behaviors and demographics.
+- 9,000+ Items – A wide variety of products categorized under different brands.
+- 81 Stores – Sales data from stores across various cities, allowing us to explore regional trends.
 The dataset was detailed and complex, but we knew that by analyzing it effectively, we could uncover meaningful insights.
 
-Our Approach
+## Our Approach
 To make the most of the limited time we had, we followed a well-structured approach:
 
 Data Cleaning and Preparation
