@@ -4,8 +4,7 @@ pubDatetime: 2024-12-23T15:22:00Z
 modDatetime: 2024-12-21T09:12:47.400Z
 title: AI in Data Analysis
 slug: ai-in-data-analysis
-featured: true
-draft: false
+featured: false
 tags:
   - AI
 description: AI and ML are revolutionizing data analysis by enabling faster, more accurate insights and predictions, improving decision-making and marketing strategies.
