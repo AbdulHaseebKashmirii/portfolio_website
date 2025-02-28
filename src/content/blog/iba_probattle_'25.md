@@ -19,39 +19,39 @@ description:
 ## Table of contents
 
 ## Our Experience at IBA Probattle '25
-Recently, [Fakhurddin](https://www.linkedin.com/in/fakhurddin-junejo/) and I participated in IBA Probattle '25, organized by [IBA Computer Science Society,](https://www.linkedin.com/company/iba-computer-science-society/posts/?feedView=all&viewAsMember=true) where we took on the challenge of the Business Intelligence (BI) module. It was an incredible experience, filled with learning, excitement, and a fair share of challenges. We had to analyze a complex dataset and create an interactive dashboard using Power BI. After putting in hours of hard work, we were thrilled to secure the position of runners-up!
+Recently, [Fakhurddin](https://www.linkedin.com/in/fakhurddin-junejo/) and I participated in IBA Probattle '25, organized by [IBA Computer Science Society,](https://www.linkedin.com/company/iba-computer-science-society/posts/?feedView=all&viewAsMember=true) where we took on the challenge of the Business Intelligence (BI) module. It was an amazing experience full of learning, excitement, and challenges. We were given a complex dataset and had to create an interactive dashboard using Power BI. After putting in hours of effort, we were thrilled to secure the position of runners-up!
 
 ## The Dataset We Worked With
-We were given the Turkish Market Sales Dataset, which was massive and full of valuable information:
+We were given a dataset from the [Turkish Market Sales Dataset with 9000items](https://www.kaggle.com/datasets/omercolakoglu/turkish-market-sales-dataset-with-9000items/data), which included:
 
 - 50,000+ Customers – Giving us insights into different customer behaviors and demographics.
 - 9,000+ Items – A wide variety of products categorized under different brands.
 - 81 Stores – Sales data from stores across various cities, allowing us to explore regional trends.
-The dataset was detailed and complex, but we knew that by analyzing it effectively, we could uncover meaningful insights.
+
+Our task was to analyze this data and present meaningful insights through an interactive dashboard.
 
 ## Our Approach
 To make the most of the limited time we had, we followed a well-structured approach:
 
-Data Cleaning and Preparation
+### Data Cleaning and Preparation
 
 We started by cleaning the data to remove errors and inconsistencies.
 Organizing the data properly helped us get accurate insights later on.
-Exploratory Data Analysis (EDA)
+
+### Exploratory Data Analysis (EDA)
 
 We explored the data to understand sales patterns, customer demographics, and product performance.
-This helped us decide on the key metrics and visuals to include in our dashboard.
-Building the Dashboard in Power BI
+This helped us decide on the key metrics and visuals to include in our dashboard
 
-We designed an interactive dashboard that included:
-Sales and Profit Overview – To track revenue and profit trends.
-Top Performing Stores – Highlighting the most profitable locations.
-Customer Demographics – Analyzing sales by gender and age groups.
-Geographical Insights – Using map visuals to show profit distribution by city.
-Providing Business Recommendations
-
-Based on our analysis, we suggested actionable strategies to improve sales and profitability.
-Challenges We Faced
-The competition wasn’t without its challenges:
+## Building the Dashboard
+### We used Power BI to design a dashboard that showcased:
+- Sales and Profit Overview – To track revenue and profit trends.
+- Customer Demographics – Analyzing sales by gender.
+- Top Performing Stores – Highlighting the most profitable locations.
+- Geographical Insights – Visualizing profit distribution across different cities.
+> Here’s a glimpse of the dashboard we designed:
+![Dashboard](https://console.cloudinary.com/pm/c-6ebbdd6d67a32255dd72290f729a04/media-explorer/Website?assetId=9c1f30dfc208a6034cba94d09bc2cee6)
+Our interactive dashboard, showcasing key sales trends and insights.
 
 Complex Data: The dataset was huge, and cleaning it was time-consuming.
 Choosing the Right Visuals: We wanted to make the dashboard informative yet easy to understand.
