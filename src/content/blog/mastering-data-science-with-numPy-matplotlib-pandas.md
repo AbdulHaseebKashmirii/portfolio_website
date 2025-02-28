@@ -4,8 +4,7 @@ pubDatetime: 2024-12-23T15:22:00Z
 modDatetime: 2025-01-02T09:12:47.400Z
 title: Unlock Data Science Potential with NumPy, Matplotlib, and Pandas
 slug: mastering-data-science-with-numPy-matplotlib-pandas
-featured: true
-draft: false
+featured: false
 tags:
   - python
   - Numpy
