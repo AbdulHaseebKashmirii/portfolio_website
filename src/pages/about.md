@@ -11,7 +11,7 @@ In my free time, I focus on developing my programming skills and exploring data 
 Feel free to connect with me on social media or drop me an <a href="mailto:abdulhaseeb5654@gmail.com" class="button">email</a>—I’d love to hear from you!
 
 
-<!-- [my personal blog](https://ahaseeb.com/).
+ [my personal blog](https://ahaseeb.com/).
 
  ## Tech Stack
 
@@ -23,4 +23,4 @@ Here are certain features of this site.
 
 - fully responsive and accessible
 - SEO-friendly
-- light & dark mode -->
+- light & dark mode
