@@ -28,13 +28,13 @@
   /* lobster color scheme */
   :root,
   html[data-theme="dark"] {
-    --color-fill: 0, 1, 35;
-    --color-accent: 97, 123, 255;
-    --color-text-base: 234, 237, 243;
-    --color-card: 33, 34, 83;
-    --color-card-muted: 12, 14, 79;
-    --color-border: 48, 63, 138;
-  }  
+    --color-fill: 8, 10, 30; /* Deep navy background */
+    --color-accent: 130, 255, 221; /* Teal accent for highlights */
+    --color-text-base: 225, 230, 245; /* Light grayish-white text */
+    --color-card: 20, 22, 55; /* Dark muted blue for cards */
+    --color-card-muted: 15, 17, 45; /* Even darker shade for contrast */
+    --color-border: 80, 90, 160; /* Subtle blue border for elegance */
+  }   
 }
   #sun-svg,
   html[data-theme="dark"] #moon-svg {
