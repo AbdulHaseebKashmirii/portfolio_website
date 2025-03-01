@@ -1,7 +1,7 @@
 ---
 author: Abdul Haseeb
 pubDatetime: 2025-01-23T15:22:00Z
-modDatetime: 2025-02-02T09:12:47.400Z
+modDatetime: 2025-01-02T09:12:47.400Z
 title: Unlock Data Science Potential with NumPy, Matplotlib, and Pandas
 slug: mastering-data-science-with-numPy-matplotlib-pandas
 featured: false
