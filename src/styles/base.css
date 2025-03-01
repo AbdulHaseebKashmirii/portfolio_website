@@ -16,25 +16,34 @@
   /* lobster color scheme */
   :root,
   html[data-theme="light"] {
-    --color-fill: 245, 242, 235; /* Warm ivory background (light but not pure white) */
-    --color-accent: 30, 80, 200; /* Elegant blue for accents */
-    --color-text-base: 20, 20, 30; /* Deep gray for better readability */
-    --color-card: 255, 255, 250; /* Slightly off-white for smooth contrast */
-    --color-card-muted: 235, 232, 225; /* Muted warm gray for subtle contrast */
-    --color-border: 200, 200, 200; /* Soft grayish borders */
+    --color-fill: 250, 247, 240; /* Soft warm white (light beige) */
+    --color-accent: 20, 100, 180; /* Elegant deep blue */
+    --color-text-base: 25, 25, 35; /* Dark muted gray (soft on eyes) */
+    --color-card: 255, 255, 250; /* Off-white (not pure white) */
+    --color-card-muted: 230, 228, 220; /* Muted warm gray */
+    --color-border: 190, 190, 190; /* Soft gray for gentle contrast */
+  }
+  
+  html[data-theme="dark"] {
+    --color-fill: 18, 18, 28; /* Deep, rich charcoal (modern dark mode) */
+    --color-accent: 100, 210, 255; /* Vibrant cyan-blue (techy feel) */
+    --color-text-base: 230, 230, 235; /* Light grayish white (not pure white) */
+    --color-card: 30, 30, 50; /* Muted dark blue-gray (depth effect) */
+    --color-card-muted: 25, 25, 40; /* Even deeper muted tone */
+    --color-border: 90, 90, 120; /* Soft bluish-gray border */
   }  
 }
 @layer base {
   /* lobster color scheme */
   :root,
   html[data-theme="dark"] {
-    --color-fill: 25, 25, 35; /* Soft charcoal black (not too deep) */
-    --color-accent: 255, 159, 64; /* Warm orange-peach accent */
-    --color-text-base: 240, 240, 245; /* Slightly off-white text for better readability */
-    --color-card: 45, 45, 60; /* Muted dark grayish-blue for cards */
-    --color-card-muted: 35, 35, 50; /* Slightly darker for contrast */
-    --color-border: 90, 90, 110; /* Soft grayish-blue borders */
-  }   
+    --color-fill: 18, 18, 28; /* Deep, rich charcoal (modern dark mode) */
+    --color-accent: 100, 210, 255; /* Vibrant cyan-blue (techy feel) */
+    --color-text-base: 230, 230, 235; /* Light grayish white (not pure white) */
+    --color-card: 30, 30, 50; /* Muted dark blue-gray (depth effect) */
+    --color-card-muted: 25, 25, 40; /* Even deeper muted tone */
+    --color-border: 90, 90, 120; /* Soft bluish-gray border */
+  } 
 }
   #sun-svg,
   html[data-theme="dark"] #moon-svg {
