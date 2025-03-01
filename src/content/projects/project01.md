@@ -2,7 +2,7 @@
 author: Abdul Haseeb
 pubDatetime: 2024-12-12T18:58:00Z  
 modDatetime: 2025-02-01T18:58:00Z  
-title: Project01
+title: Projects
 slug: project01
 featured: true
 draft: false
