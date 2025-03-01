@@ -6,11 +6,11 @@ _All the projects I've worked on._
 
 ## Table of contents
 
-## Our Experience at IBA Probattle '25
-Recently, [Fakhurddin](https://www.linkedin.com/in/fakhurddin-junejo/) and I participated in IBA Probattle '25, organized by [IBA Computer Science Society,](https://www.linkedin.com/company/iba-computer-science-society/posts/?feedView=all&viewAsMember=true) where we took on the challenge of the Business Intelligence (BI) module. It was an amazing experience full of learning, excitement, and challenges. We were given a complex dataset and had to create an interactive dashboard using Power BI. After putting in hours of effort, we were thrilled to secure the position of runners-up!
+## Our Experience
+RRecently, we participated in an exciting Business Intelligence (BI) challenge, where we were given a complex dataset and tasked with creating an interactive dashboard. This experience was filled with learning, analysis, and creativity. After hours of effort, we achieved outstanding results and secured a notable position
 
 ## The Dataset We Worked With
-We were given a dataset from the [Turkish Market Sales Dataset with 9000items](https://www.kaggle.com/datasets/omercolakoglu/turkish-market-sales-dataset-with-9000items/data), which included:
+We were provided with a comprehensive [dataset](https://www.kaggle.com/datasets/omercolakoglu/turkish-market-sales-dataset-with-9000items/data), that included:
 
 - 50,000+ Customers – Giving us insights into different customer behaviors and demographics.
 - 9,000+ Items – A wide variety of products categorized under different brands.
