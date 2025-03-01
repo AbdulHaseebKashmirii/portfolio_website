@@ -1,7 +1,7 @@
 ---
 author: Abdul Haseeb
-pubDatetime: 2024-12-12T18:58:00Z  
-modDatetime: 2025-02-01T18:58:00Z  
+pubDatetime: 2024-02-16T18:58:00Z  
+modDatetime: 2025-02-17T18:58:00Z  
 title: IBA Probattle '25
 slug: iba_probattle_'25
 featured: true
