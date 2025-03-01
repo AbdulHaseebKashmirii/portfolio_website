@@ -50,16 +50,15 @@ This helped us decide on the key metrics and visuals to include in our dashboard
 - Top Performing Stores – Highlighting the most profitable locations.
 - Geographical Insights – Visualizing profit distribution across different cities.
 
-> Here’s a glimpse of the dashboard we designed:
-
+> Here’s a glimpse of the dashboard we designed
 
 ![Dashboard](https://res.cloudinary.com/dqpbi43mn/image/upload/f_auto,q_auto/v1/Website/lnwqkx3ecntc0ijo3cad)
 
-> Our interactive dashboard, showcasing key sales trends and insights.
+> Our interactive dashboard, showcasing key sales trends and insights
 
 ![Dashborad](https://res.cloudinary.com/dqpbi43mn/image/upload/f_auto,q_auto/v1/Website/teevquvd69jx5vtzowj0)
 
-> Another view of our dashboard, highlighting geographical insights and top-performing stores.
+> Another view of our dashboard, highlighting geographical insights and top-performing stores
 
 ## What We Learned
 ### This experience taught us a lot:
